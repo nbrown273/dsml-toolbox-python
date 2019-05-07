@@ -5,7 +5,7 @@ A collection of notebooks used for teaching the fundamentals of scientific compu
     1. Jupyter Lab
     2. Numpy
     3. Matlotlib
-2. Part II
+2. Part II (TBC)
     4. Pandas
     5. Scipy
     6. Scikit-Learn
