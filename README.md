@@ -1,33 +1,36 @@
 # scientific-python
-A collection of notebooks used for teaching the fundamentals of scientific computing in python. Covers six units over two classes including:
+A collection of notebooks used for teaching the fundamentals of data science and machine learning in python. Covers six pieces of the SciPy framework, and introduces some basic machine learning models along the way. There are also comprehensive projects available that combine the basics of multiple modules together into one application. The intended flow between modules and projects is:
 
 1. Part I
-    1. Jupyter Lab
-    2. Numpy
-    3. Matlotlib
-2. Part II (TBC)
-    4. Pandas
-    5. Scipy
-    6. Scikit-Learn
+    1. Module: Jupyter Lab
+    2. Module: Numpy
+    3. Project: Neural Network Evaluation
+2. Part II
+    1. Module: Pandas
+    2. Module: MatplotLib
+    3. Project: ???
+3. Part III
+    1. Module: Scipy
+    2. Module: Scikit-Learn
+    3. Project: ???
 
 ## Installation
-Make sure you have python3 and pip installed and accessible via the command line. Run 
+### Docker
+The easiest way to ensure this project runs smoothly is to install Docker, pull down the jupyterlab scipy image, and run the container:
+```bash
+docker run -p 8888:8888 -e JUPYTER_ENABLE_LAB=yes jupyter/scipy-notebook
+```
+As the container runs, it will eventually print a url for the UI of the running jupyter lab server.
+
+### PIP
+If you would rather not use Docker, make sure you have python3 and pip installed and accessible via the command line. Then run 
 
 ```bash
 python -m pip install -U -r requirements.txt
 ```
 
-to install all of the dependencies for these modules. 
-
-#### Extra Optional Install
-
-To install the interactive plotting widget in jupyter lab, make sure node is installed then run the following two commands:
-
+Once installed, start jupyter lab in the root of this project by running:
 ```bash
-jupyter labextension install @jupyter-widgets/jupyterlab-manager
-jupyter labextension install jupyter-matplotlib
+jupyter lab
 ```
-
-## Getting Started
-
-Start the jupyter lab server then wait to be automatically redirected to the web UI. Once displayed, open the Jupyter.ipynb in the notebooks folder.
+then visit the provided url.
