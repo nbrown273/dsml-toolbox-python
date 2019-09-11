@@ -4,7 +4,7 @@ A collection of notebooks used for teaching the fundamentals of data science and
 1. Part I
     1. Module: Jupyter Lab
     2. Module: Numpy
-    3. Project: Neural Network Evaluation
+    3. Project: Neural Network Forward Propagation
 2. Part II
     1. Module: Pandas
     2. Module: MatplotLib
