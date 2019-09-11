@@ -1,4 +1,4 @@
-# scientific-python
+# Data Science/Machine Learning Toolbox in Python
 A collection of notebooks used for teaching the fundamentals of data science and machine learning in python. Covers six pieces of the SciPy framework, and introduces some basic machine learning models along the way. There are also comprehensive projects available that combine the basics of multiple modules together into one application. The intended flow between modules and projects is:
 
 1. Part I
