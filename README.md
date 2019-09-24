@@ -6,8 +6,8 @@ A collection of notebooks used for teaching the fundamentals of data science and
     2. Module: Numpy
     3. Project: Neural Network Forward Propagation
 2. Part II
-    1. Module: Pandas
-    2. Module: MatplotLib
+    1. Module: Matplotlib
+    2. Module: Pandas
     3. Project: ???
 3. Part III
     1. Module: Scipy
