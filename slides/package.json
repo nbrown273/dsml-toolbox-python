@@ -1,0 +1,12 @@
+{
+  "name": "dsml-toolbox-slides",
+  "version": "1.0.0",
+  "author": "Nathan Brown <nathan.brown@daugherty.com>",
+  "private": true,
+  "scripts": {
+    "start": "marp --html -ps ."
+  },
+  "devDependencies": {
+    "@marp-team/marp-cli": "^0.14.1"
+  }
+}
