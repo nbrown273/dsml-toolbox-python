@@ -35,6 +35,10 @@ docker run \
     jupyter/scipy-notebook
 ```
 
+```bash
+docker run --rm --publish 8888:8888 --env JUPYTER_ENABLE_LAB=yes --name jlab-scipy jupyter/scipy-notebook
+```
+
 As the container runs, it will eventually print a url for the UI of the running jupyter lab server. Follow the link to open the UI in your browser.
 
 ### PIP
