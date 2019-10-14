@@ -11,7 +11,7 @@ This repository is divided into two directories: modules and projects. The modul
 2. Part II
     1. Module: Matplotlib
     2. Module: Pandas
-    3. Project: ???
+    3. Project: Exploring Handwritten Digits
 3. Part III
     1. Module: Scipy
     2. Module: Scikit-Learn
@@ -26,6 +26,7 @@ Once Docker is installed and the Docker daemon is started, open a terminal and c
 
 ```bash
 docker run \
+    --rm \
     --publish 8888:8888 \
     --env JUPYTER_ENABLE_LAB=yes \
     --name jlab-scipy \
