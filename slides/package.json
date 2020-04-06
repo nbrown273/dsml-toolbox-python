@@ -7,6 +7,8 @@
     "start": "marp --html -ps ."
   },
   "devDependencies": {
-    "@marp-team/marp-cli": "^0.14.1"
+    "@marp-team/marp-cli": "^0.14.1",
+    "minimist": ">=0.2.1",
+    "acorn": ">=6.4.1"
   }
 }
